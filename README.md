@@ -1,6 +1,6 @@
-# FlossWare Engineering Research
+# FlossWare Research
 
-Cross-project engineering investigations, experiments, and architectural research for FlossWare.
+Cross-project research, investigations, experiments, and architectural exploration for FlossWare.
 
 ## Purpose
 
@@ -13,20 +13,20 @@ Research may be incomplete, contradictory, or wrong. That is intentional.
 ```text
 Question
   ↓
-engineering-research
+research
   ↓
 Investigation / experiment
   ↓
 Conclusion
-  ├──→ knowledge       reusable technical knowledge
-  ├──→ engineering-standards   normative engineering practice
+  ├──→ knowledge           durable knowledge, research outcomes, and provenance
+  ├──→ standards       normative FlossWare-wide rules
   ├──→ ADR             architectural decision
   └──→ project repo    implementation
 ```
 
 ## What belongs here
 
-- Cross-project architectural research
+- Cross-project research and architectural investigations
 - Evaluation of competing technologies or approaches
 - Historical architecture archaeology
 - Prototypes used to answer architectural questions
@@ -35,8 +35,8 @@ Conclusion
 
 ## What does not belong here
 
-- Normative engineering rules: use `engineering-standards`
-- Stable reference knowledge: use `knowledge`
+- Normative FlossWare-wide rules: use `standards`
+- Durable knowledge, research outcomes, and provenance: use `knowledge`
 - Project implementation: use the relevant project repository
 - Final architectural decisions: use an ADR in the relevant project/standards repository
 
@@ -47,8 +47,8 @@ Use explicit status markers such as:
 - `PARKED` - interesting and worth revisiting, but not currently active
 - `ACTIVE` - currently being investigated
 - `CONCLUDED` - investigation complete; outcome documented
-- `PROMOTED` - conclusion has moved into standards, an ADR, knowledge, or implementation
+- `PROMOTED` - conclusion has moved into Knowledge, Standards, an ADR, or implementation
 
 ## Principle
 
-> Research is allowed to be wrong. Standards and ADRs are not.
+> Research is allowed to be wrong. Standards and accepted ADRs are normative.
