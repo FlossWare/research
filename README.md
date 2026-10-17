@@ -18,8 +18,8 @@ engineering-research
 Investigation / experiment
   ↓
 Conclusion
-  ├──→ knowledge       reusable technical knowledge
-  ├──→ engineering-standards   normative engineering practice
+  ├──→ axium           durable knowledge, research outcomes, and provenance
+  ├──→ standards       normative FlossWare-wide rules
   ├──→ ADR             architectural decision
   └──→ project repo    implementation
 ```
@@ -35,8 +35,8 @@ Conclusion
 
 ## What does not belong here
 
-- Normative engineering rules: use `engineering-standards`
-- Stable reference knowledge: use `knowledge`
+- Normative FlossWare-wide rules: use `standards`
+- Durable knowledge, research outcomes, and provenance: use `axium`
 - Project implementation: use the relevant project repository
 - Final architectural decisions: use an ADR in the relevant project/standards repository
 
@@ -47,8 +47,8 @@ Use explicit status markers such as:
 - `PARKED` - interesting and worth revisiting, but not currently active
 - `ACTIVE` - currently being investigated
 - `CONCLUDED` - investigation complete; outcome documented
-- `PROMOTED` - conclusion has moved into standards, an ADR, knowledge, or implementation
+- `PROMOTED` - conclusion has moved into Axium, Standards, an ADR, or implementation
 
 ## Principle
 
-> Research is allowed to be wrong. Standards and ADRs are not.
+> Research is allowed to be wrong. Standards and accepted ADRs are normative.
