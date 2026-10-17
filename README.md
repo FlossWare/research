@@ -1,6 +1,6 @@
-# FlossWare Engineering Research
+# FlossWare Research
 
-Cross-project engineering investigations, experiments, and architectural research for FlossWare.
+Cross-project research, investigations, experiments, and architectural exploration for FlossWare.
 
 ## Purpose
 
@@ -13,7 +13,7 @@ Research may be incomplete, contradictory, or wrong. That is intentional.
 ```text
 Question
   ↓
-engineering-research
+research
   ↓
 Investigation / experiment
   ↓
@@ -26,7 +26,7 @@ Conclusion
 
 ## What belongs here
 
-- Cross-project architectural research
+- Cross-project research and architectural investigations
 - Evaluation of competing technologies or approaches
 - Historical architecture archaeology
 - Prototypes used to answer architectural questions
