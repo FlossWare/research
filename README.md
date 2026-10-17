@@ -18,7 +18,7 @@ research
 Investigation / experiment
   ↓
 Conclusion
-  ├──→ axium           durable knowledge, research outcomes, and provenance
+  ├──→ knowledge           durable knowledge, research outcomes, and provenance
   ├──→ standards       normative FlossWare-wide rules
   ├──→ ADR             architectural decision
   └──→ project repo    implementation
@@ -36,7 +36,7 @@ Conclusion
 ## What does not belong here
 
 - Normative FlossWare-wide rules: use `standards`
-- Durable knowledge, research outcomes, and provenance: use `axium`
+- Durable knowledge, research outcomes, and provenance: use `knowledge`
 - Project implementation: use the relevant project repository
 - Final architectural decisions: use an ADR in the relevant project/standards repository
 
@@ -47,7 +47,7 @@ Use explicit status markers such as:
 - `PARKED` - interesting and worth revisiting, but not currently active
 - `ACTIVE` - currently being investigated
 - `CONCLUDED` - investigation complete; outcome documented
-- `PROMOTED` - conclusion has moved into Axium, Standards, an ADR, or implementation
+- `PROMOTED` - conclusion has moved into Knowledge, Standards, an ADR, or implementation
 
 ## Principle
 
